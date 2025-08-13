@@ -1,0 +1,298 @@
+body {
+  line-height: 1.5;
+  font-family: "Noto Sans TC", sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.content_container {
+  width: 66.7%;
+  margin: 0 auto;
+}
+.content_block {
+  padding-bottom: 48px;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.w_500 {
+  font-weight: 500;
+}
+.section {
+  margin-bottom: 48px;
+}
+.section_item {
+  margin-bottom: 12px;
+}
+.section_item:last-child {
+  margin-bottom: 0;
+}
+.section_title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.title_green {
+  color: #57a203;
+}
+
+.h5 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 17px 0;
+}
+
+.logo {
+  margin-right: 48px;
+}
+.navbar_menu {
+  display: flex;
+}
+.user_block {
+  margin-left: auto;
+}
+.navbar_menu_item {
+  padding: 12px 5px;
+  margin-right: 30px;
+}
+
+/*---hero----*/
+.hero {
+  background-image: url("/assets/images/hero.png");
+  background-position: center;
+  background-size: cover;
+
+  width: 100%;
+  padding: 151px 0;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.hero_context {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero_title {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.hero_subtitle {
+  font-size: 28px;
+}
+
+/*----brand_message_block---*/
+.brand_message_section {
+  display: flex;
+  justify-content: center;
+}
+.brand_message_block {
+  background-color: #f5fee7;
+  padding: 32px;
+  text-align: center;
+}
+.message_title {
+  margin-bottom: 12px;
+}
+.message_context {
+  margin-bottom: 4px;
+}
+
+/*----brand_image----*/
+.brand_image_section {
+  margin-bottom: 77px;
+}
+.brand_image_block {
+  margin: 0 auto;
+  max-width: 1076px;
+}
+/*---introduction--*/
+.introduction_subtitle {
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.introduction_context {
+  margin-bottom: 16px;
+}
+.introduction_context :last-child {
+  margin-bottom: 0;
+}
+
+/*---ideas-----*/
+.idea_item_text {
+  border-left: 2px solid #dee2e6;
+  padding-left: 12px;
+}
+
+/*---stories---*/
+.brand_stories_section {
+  margin-bottom: 64px;
+}
+.story_text {
+  font-weight: 500;
+}
+.story_icon {
+  margin-right: 4px;
+}
+/*----cta---*/
+.footer_cta_section {
+  background-color: #e8fec5;
+  width: 100%;
+  padding: 33.5px 0;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+}
+.cta_block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.cta_text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+}
+.cta_btn {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
+
+/*----nav_bottom-----*/
+.nav_bottom_section {
+  margin-bottom: 32px;
+}
+.nav_bottom_block {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #dee2e6;
+}
+.nav_bottom_menu {
+  display: flex;
+  gap: 20px;
+}
+.nav_bottom_link {
+  font-size: 500;
+  display: block;
+  padding: 12px 0;
+}
+.footer_context {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.footer_text {
+  color: #6c757d;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.footer_text :last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 12px;
+  }
+  .content_container {
+    width: 100%;
+  }
+  .content_block {
+    padding-bottom: 32px;
+  }
+
+  .section {
+    margin-bottom: 32px;
+  }
+
+  .navbar_menu {
+    display: none;
+  }
+  /*---hero--*/
+  .hero {
+    padding: 87px 0;
+    margin-bottom: 32px;
+  }
+
+  .hero_title {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+
+  .hero_subtitle {
+    font-size: 20px;
+  }
+
+  .brand_message_block {
+    padding: 24px;
+    text-align: left;
+  }
+  /*----brand_image----*/
+  .brand_image_section {
+    margin-bottom: 16px;
+  }
+  /*---introduction--*/
+  .introduction_subtitle {
+    margin-bottom: 12px;
+  }
+
+  .introduction_context {
+    margin-bottom: 12px;
+  }
+
+  /*---stories---*/
+  .brand_stories_section {
+    margin-bottom: 32px;
+  }
+  /*----cta---*/
+  .footer_cta_section {
+    padding: 32px 0;
+    margin-bottom: 32px;
+  }
+  .cta_block {
+    gap: 16px;
+  }
+  .cta_text {
+    font-size: 20px;
+  }
+  .cta_btn {
+    padding: 8px 16px;
+  }
+
+  /*----nav_bottom-----*/
+  .nav_bottom_block {
+    flex-direction: column;
+  }
+  .nav_bottom_menu {
+    flex-direction: column;
+    margin-bottom: 24px;
+    gap: 0;
+  }
+
+  .footer_context {
+    margin-bottom: 32px;
+  }
+}
